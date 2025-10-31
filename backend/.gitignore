@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+db.sqlite3
+
+# Environment files
+.env
+
+# Node / React / Next.js
+node_modules/
+.next/
+out/
+build/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
