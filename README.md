@@ -1,4 +1,4 @@
-# YouTube Transcript Generator
+# 🎥 YouTube Transcript Generator
 
 A comprehensive web application that generates transcripts from YouTube videos, provides AI-powered summaries, highlights, key moments, topics, quotes, and sentiment analysis. Users can create accounts, manage subscriptions, and share transcripts publicly with social features like likes, comments, and favorites.
 
@@ -12,76 +12,76 @@ Many YouTube videos lack transcripts or have inaccurate auto-generated ones. Con
 - Implementing subscription-based access for unlimited usage
 - Ensuring privacy with user authentication and visibility controls
 
-## Features
+## ✨ Features
 
-### Core Functionality
-- **Transcript Generation**: Extracts transcripts from YouTube videos using official APIs or AI transcription
-- **AI Analysis**: Uses Google Gemini AI to generate:
-  - Concise summaries
-  - Key highlights as bullet points
-  - Key moments with timestamps
-  - Main topics discussed
-  - Notable quotes
-  - Overall sentiment analysis
-  - Host and guest identification
-- **Video Metadata**: Fetches title, channel name, thumbnail, duration, and publish date
+### 🔧 Core Functionality
+- **📝 Transcript Generation**: Extracts transcripts from YouTube videos using official APIs or AI transcription
+- **🤖 AI Analysis**: Uses Google Gemini AI to generate:
+  - 📋 Concise summaries
+  - ⭐ Key highlights as bullet points
+  - ⏰ Key moments with timestamps
+  - 🏷️ Main topics discussed
+  - 💬 Notable quotes
+  - 😊 Overall sentiment analysis
+  - 🎤 Host and guest identification
+- **📺 Video Metadata**: Fetches title, channel name, thumbnail, duration, and publish date
 
-### User Management
-- **Authentication**: JWT-based authentication with email verification
-- **Password Management**: Forgot/reset password functionality
-- **User Profiles**: Custom user model with email and username
+### 👤 User Management
+- **🔐 Authentication**: JWT-based authentication with email verification
+- **🔑 Password Management**: Forgot/reset password functionality
+- **👨‍💻 User Profiles**: Custom user model with email and username
 
-### Social Features
-- **Public Feed**: Share transcripts publicly or keep them private
-- **Interactions**: Like, comment, share, and favorite public transcripts
-- **Search**: Search through public transcripts by title
+### 🌐 Social Features
+- **📢 Public Feed**: Share transcripts publicly or keep them private
+- **👍 Interactions**: Like, comment, share, and favorite public transcripts
+- **🔍 Search**: Search through public transcripts by title
 
-### Subscription System
-- **Free Tier**: Limited to 2 transcripts
-- **Premium Access**: Unlimited transcripts via Stripe subscriptions
-- **Payment Methods**: Manage payment methods with Stripe integration
+### 💳 Subscription System
+- **🆓 Free Tier**: Limited to 2 transcripts
+- **💎 Premium Access**: Unlimited transcripts via Stripe subscriptions
+- **💳 Payment Methods**: Manage payment methods with Stripe integration
 
-### Technical Features
-- **Responsive Design**: Mobile-friendly interface with Tailwind CSS
-- **Real-time Updates**: Dynamic UI updates for interactions
-- **Error Handling**: Comprehensive error handling for API failures
-- **Security**: CORS, CSRF protection, and secure API keys
+### ⚙️ Technical Features
+- **📱 Responsive Design**: Mobile-friendly interface with Tailwind CSS
+- **🔄 Real-time Updates**: Dynamic UI updates for interactions
+- **🚨 Error Handling**: Comprehensive error handling for API failures
+- **🔒 Security**: CORS, CSRF protection, and secure API keys
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 ### Backend
-- **Django**: Web framework for Python
-- **Django REST Framework**: API development
-- **PostgreSQL**: Database
-- **JWT**: Authentication
-- **Stripe**: Payment processing
-- **Google Gemini AI**: AI analysis
-- **YouTube Data API**: Video metadata
-- **YouTube Transcript API**: Transcript extraction
-- **yt-dlp**: Audio download for transcription fallback
+- **🐍 Django**: Web framework for Python
+- **🔌 Django REST Framework**: API development
+- **🗄️ PostgreSQL**: Database
+- **🔐 JWT**: Authentication
+- **💳 Stripe**: Payment processing
+- **🤖 Google Gemini AI**: AI analysis
+- **📺 YouTube Data API**: Video metadata
+- **📝 YouTube Transcript API**: Transcript extraction
+- **⬇️ yt-dlp**: Audio download for transcription fallback
 
 ### Frontend
-- **Next.js**: React framework
-- **React**: UI library
-- **TypeScript**: Type-safe JavaScript
-- **Tailwind CSS**: Utility-first CSS framework
-- **Lucide React**: Icon library
-- **Framer Motion**: Animations
-- **React Toastify**: Notifications
-- **Stripe React SDK**: Payment integration
+- **⚛️ Next.js**: React framework
+- **⚛️ React**: UI library
+- **📘 TypeScript**: Type-safe JavaScript
+- **🎨 Tailwind CSS**: Utility-first CSS framework
+- **🎯 Lucide React**: Icon library
+- **🎭 Framer Motion**: Animations
+- **🔔 React Toastify**: Notifications
+- **💳 Stripe React SDK**: Payment integration
 
 ### Development Tools
-- **ESLint**: Code linting
-- **PostCSS**: CSS processing
-- **Python Decouple**: Environment variable management
-- **Django CORS Headers**: CORS handling
+- **🔍 ESLint**: Code linting
+- **🎨 PostCSS**: CSS processing
+- **🔧 Python Decouple**: Environment variable management
+- **🌐 Django CORS Headers**: CORS handling
 
-## APIs Used
+## 🔗 APIs Used
 
-- **YouTube Data API v3**: Fetches video metadata (title, channel, thumbnail, duration, publish date)
-- **YouTube Transcript API**: Extracts available transcripts from videos
-- **Google Gemini AI API**: Powers all AI analysis features (summarization, highlights, topics, etc.)
-- **Stripe API**: Handles subscriptions, payment methods, and billing
+- **📺 YouTube Data API v3**: Fetches video metadata (title, channel, thumbnail, duration, publish date)
+- **📝 YouTube Transcript API**: Extracts available transcripts from videos
+- **🤖 Google Gemini AI API**: Powers all AI analysis features (summarization, highlights, topics, etc.)
+- **💳 Stripe API**: Handles subscriptions, payment methods, and billing
 
 ## Folder Structure
 
@@ -191,13 +191,13 @@ transcript-generator/
 │           └── stripe.ts
 ```
 
-## Installation and Setup
+## 🚀 Installation and Setup
 
-### Prerequisites
-- Python 3.8+
-- Node.js 18+
-- PostgreSQL
-- Git
+### 📋 Prerequisites
+- 🐍 Python 3.8+
+- ⚛️ Node.js 18+
+- 🗄️ PostgreSQL
+- 📦 Git
 
 ### Backend Setup
 
@@ -278,39 +278,39 @@ transcript-generator/
    npm run dev
    ```
 
-## Usage
+## 📖 Usage
 
-1. **Access the application** at `http://localhost:3000`
-2. **Sign up** for a new account or **log in** if you have one
-3. **Generate transcripts** by pasting a YouTube URL and selecting visibility
-4. **View results** including transcript, summary, highlights, and analysis
-5. **Explore public feed** to discover and interact with other transcripts
-6. **Manage subscriptions** for unlimited access via the subscription page
+1. 🌐 **Access the application** at `http://localhost:3000`
+2. 📝 **Sign up** for a new account or **log in** if you have one
+3. 🎬 **Generate transcripts** by pasting a YouTube URL and selecting visibility
+4. 👀 **View results** including transcript, summary, highlights, and analysis
+5. 🔍 **Explore public feed** to discover and interact with other transcripts
+6. 💳 **Manage subscriptions** for unlimited access via the subscription page
 
-### API Endpoints
+### 🔌 API Endpoints
 
-- `POST /api/users/signup/` - User registration
-- `POST /api/users/login/` - User login
-- `POST /api/transcript/summarize/` - Generate transcript and analysis
-- `GET /api/transcript/history/` - Get user's transcript history
-- `GET /api/transcript/public-feed/` - Get public transcripts
-- `POST /api/transcript/{id}/like/` - Like a transcript
-- `POST /api/users/create-subscription/` - Create subscription
+- `POST /api/users/signup/` - 👤 User registration
+- `POST /api/users/login/` - 🔑 User login
+- `POST /api/transcript/summarize/` - 🤖 Generate transcript and analysis
+- `GET /api/transcript/history/` - 📚 Get user's transcript history
+- `GET /api/transcript/public-feed/` - 🌍 Get public transcripts
+- `POST /api/transcript/{id}/like/` - ❤️ Like a transcript
+- `POST /api/users/create-subscription/` - 💎 Create subscription
 
-## Contributing
+## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. 🍴 Fork the repository
+2. 🌿 Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. 💻 Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. 📤 Push to the branch (`git push origin feature/amazing-feature`)
+5. 🔄 Open a Pull Request
 
 <img width="1338" height="638" alt="image" src="https://github.com/user-attachments/assets/16cf333a-d4cf-4bd5-a7ee-52eed02e71ab" />
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Support
+## 🆘 Support
 
 For support, email support@transcriptgenerator.com or create an issue in the repository.
