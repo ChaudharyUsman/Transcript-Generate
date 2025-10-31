@@ -1,5 +1,3 @@
-# Transcript-Generate
-
 # YouTube Transcript Generator
 
 A comprehensive web application that generates transcripts from YouTube videos, provides AI-powered summaries, highlights, key moments, topics, quotes, and sentiment analysis. Users can create accounts, manage subscriptions, and share transcripts publicly with social features like likes, comments, and favorites.
@@ -307,6 +305,8 @@ transcript-generator/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+<img width="1338" height="638" alt="image" src="https://github.com/user-attachments/assets/16cf333a-d4cf-4bd5-a7ee-52eed02e71ab" />
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -314,5 +314,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Support
 
 For support, email support@transcriptgenerator.com or create an issue in the repository.
-
-<img width="1338" height="638" alt="image" src="https://github.com/user-attachments/assets/16cf333a-d4cf-4bd5-a7ee-52eed02e71ab" />
